@@ -1,0 +1,19 @@
+{
+  "name": "flex",
+  "version": "1.0.0",
+  "description": "flex demo",
+  "main": "flex.js",
+  "dependencies": {
+    "vue": "^2.3.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "flex",
+    "css"
+  ],
+  "author": "hjdtl",
+  "license": "ISC"
+}

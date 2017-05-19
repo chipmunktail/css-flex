@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    padding: 10px;
+    background-color: #424242;
+    font-family: "Microsoft JhengHei";
+}
+.description{
+    color: #cacaca;
+    background-color: #252525;
+    border: 1px solid #1f1f1f;
+    display: inline-block;
+    padding: 2px 10px;
+    border-radius: 5px;
+}
+.box{
+    display: inline-block;
+    width: auto;
+    height: auto;
+    vertical-align: top;
+}
+.title{
+    color: #e5e5e5;
+    font-size: 20px;
+    margin: 60px 0 0 0;
+    font-weight: bold;
+}
+.container{
+    display: flex;
+    width: 300px;
+    height: 100px;
+    background-color: aqua;
+    border-radius: 3px;
+    overflow: hidden;
+}
+.item-1-1{
+    background-color: #f9ead6;
+}
+.item-1-2 {
+    background-color: #daccba;
+}
+.item-1-3{
+    background-color: #c1b5a5;
+}
+
+/*flex-direction*/
+.container-row{
+    flex-direction: row;
+}
+.container-row-reverse{
+    flex-direction: row-reverse;
+}
+.container-column{
+    flex-direction: column;
+}
+.container-column-reverse{
+    flex-direction: column-reverse;
+}
+/*flex-wrap*/
+.container-nowrap{
+    flex-wrap: nowrap;
+}
+.container-wrap{
+    flex-wrap: wrap;
+}
+.container-wrap-reverse{
+    flex-wrap: wrap-reverse;
+}
+/*flex-flow*/
+.container-row-nowrap{
+    flex-flow: row nowrap;
+}
