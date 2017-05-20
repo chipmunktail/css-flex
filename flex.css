@@ -69,3 +69,45 @@ body{
 .container-row-nowrap{
     flex-flow: row nowrap;
 }
+.container-row-wrap{
+    flex-flow: row wrap;
+}
+.container-column-nowrap{
+    flex-flow: column nowrap;
+}
+/*justify-content*/
+.container-flex-start{
+    justify-content: flex-start;
+}
+.container-flex-end{
+    justify-content: flex-end;
+}
+.container-center{
+    justify-content: center;
+}
+.container-space-between{
+    justify-content: space-between;
+}
+.container-space-around{
+    justify-content: space-around;
+}
+/*align-items*/
+.container-a-flex-start{
+    align-items: flex-start;
+}
+.container-a-flex-end{
+    align-items: flex-end;
+}
+.container-a-center{
+    align-items: center;
+}
+.container-a-stretch{
+    align-items: stretch;
+}
+.container-a-flex-baseline{
+    align-items: baseline;
+}
+/*align-content*/
+.container{
+    align-content: flex-start;
+}
