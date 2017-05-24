@@ -33,13 +33,13 @@ body{
     overflow: hidden;
 }
 .item-1-1{
-    background-color: #f9ead6;
+    background-color: #fff0dc;
 }
 .item-1-2 {
-    background-color: #daccba;
+    background-color: #8e8478;
 }
 .item-1-3{
-    background-color: #c1b5a5;
+    background-color: #423f3b;
 }
 
 /*flex-direction*/
@@ -108,6 +108,44 @@ body{
     align-items: baseline;
 }
 /*align-content*/
-.container{
+.container-ac-flex-start{
+    flex-wrap: wrap;
     align-content: flex-start;
+}
+.container-ac-flex-end{
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
+.container-ac-flex-center{
+    flex-wrap: wrap;
+    align-content: center;
+}
+.container-ac-space-between{
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.container-ac-space-around{
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+.container-ac-flex-stretch{
+    flex-wrap: wrap;
+    align-content: stretch;
+}
+
+/*order*/
+.item-order-1{
+    order: 0;
+    height: 30%;
+    width: 30%;
+}
+.item-order-2{
+    order: 1;
+    height: 30%;
+    width: 30%;
+}
+.item-order-3{
+    order: 2;
+    height: 30%;
+    width: 30%;
 }
